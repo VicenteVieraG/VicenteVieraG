@@ -2,6 +2,6 @@
 - I like making web apps and web pages, also i enjoy making videogames. 
 - My favorite programming languages are c++, TypeScript and JavaScritp
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=VicenteVieraG&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=VicenteVieraG&theme=tokyonight&count_private=true&show_icons=true)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=VicenteVieraG&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=VicenteVieraG&theme=tokyonight)
