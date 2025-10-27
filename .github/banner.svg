@@ -1,0 +1,75 @@
+<!-- assets/portada-vicente.svg -->
+<svg width="1280" height="360" viewBox="0 0 1280 360" xmlns="http://www.w3.org/2000/svg" role="img">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="grid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#94a3b8" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#94a3b8" stop-opacity="0.04"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5"/>
+    </filter>
+  </defs>
+
+  <!-- Fondo -->
+  <rect width="1280" height="360" fill="#0b1020"/>
+
+  <!-- Retícula sutil -->
+  <g stroke="url(#grid)" stroke-width="0.5">
+    <!-- verticales -->
+    <g>
+      <line x1="40" x2="40" y1="0" y2="360"/>
+      <line x1="160" x2="160" y1="0" y2="360"/>
+      <line x1="280" x2="280" y1="0" y2="360"/>
+      <line x1="400" x2="400" y1="0" y2="360"/>
+      <line x1="520" x2="520" y1="0" y2="360"/>
+      <line x1="640" x2="640" y1="0" y2="360"/>
+      <line x1="760" x2="760" y1="0" y2="360"/>
+      <line x1="880" x2="880" y1="0" y2="360"/>
+      <line x1="1000" x2="1000" y1="0" y2="360"/>
+      <line x1="1120" x2="1120" y1="0" y2="360"/>
+      <line x1="1240" x2="1240" y1="0" y2="360"/>
+    </g>
+    <!-- horizontales -->
+    <g>
+      <line y1="40" y2="40" x1="0" x2="1280"/>
+      <line y1="100" y2="100" x1="0" x2="1280"/>
+      <line y1="160" y2="160" x1="0" x2="1280"/>
+      <line y1="220" y2="220" x1="0" x2="1280"/>
+      <line y1="280" y2="280" x1="0" x2="1280"/>
+      <line y1="340" y2="340" x1="0" x2="1280"/>
+    </g>
+  </g>
+
+  <!-- Formas decorativas “gráficas” -->
+  <g opacity="0.25" filter="url(#soft)">
+    <circle cx="1080" cy="90" r="60" fill="url(#grad)"/>
+    <circle cx="1150" cy="140" r="18" fill="#22d3ee"/>
+    <circle cx="1000" cy="160" r="10" fill="#a78bfa"/>
+    <path d="M40,300 C240,220 480,350 680,260 900,170 1100,260 1240,220" fill="none" stroke="url(#grad)" stroke-width="3"/>
+  </g>
+
+  <!-- Texto principal -->
+  <g font-family="Segoe UI, Inter, system-ui, -apple-system, Roboto, Arial" font-weight="700">
+    <text x="80" y="160" font-size="54" fill="url(#grad)" letter-spacing="0.5">Vicente Javier Viera Guízar</text>
+    <text x="80" y="210" font-size="26" fill="#cbd5e1" font-weight="600">
+      C++ · Frontend · Gráficas computacionales · Simulaciones · Compiladores
+    </text>
+    <text x="80" y="250" font-size="18" fill="#94a3b8" font-weight="500">
+      “Código preciso, píxeles con intención y rendimiento que no se disculpa.”
+    </text>
+  </g>
+
+  <!-- Pequeños “nodos” conectados -->
+  <g opacity="0.6" stroke="#22d3ee" stroke-width="1.2">
+    <line x1="860" y1="70" x2="900" y2="110"/>
+    <line x1="900" y1="110" x2="940" y2="80"/>
+    <circle cx="860" cy="70" r="3" fill="#22d3ee"/>
+    <circle cx="900" cy="110" r="3" fill="#a78bfa"/>
+    <circle cx="940" cy="80" r="3" fill="#34d399"/>
+  </g>
+</svg>
