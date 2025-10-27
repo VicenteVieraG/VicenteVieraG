@@ -57,10 +57,10 @@
   <g font-family="Segoe UI, Inter, system-ui, -apple-system, Roboto, Arial" font-weight="700">
     <text x="80" y="160" font-size="54" fill="url(#grad)" letter-spacing="0.5">Vicente Javier Viera Guízar</text>
     <text x="80" y="210" font-size="26" fill="#cbd5e1" font-weight="600">
-      C++ · Frontend · Gráficas computacionales · Simulaciones · Compiladores
+      C++ · Frontend · Computer Graphics · Web Development · Optimization
     </text>
     <text x="80" y="250" font-size="18" fill="#94a3b8" font-weight="500">
-      “Código preciso, píxeles con intención y rendimiento que no se disculpa.”
+      “Code designed with passion for efficiency.”
     </text>
   </g>
 
