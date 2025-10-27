@@ -1,8 +1,4 @@
-# About Me 👨‍💻
-
-- ⚜⚜I´m a passionate programmer that enjoy learning about computer science and participate in proyects.⚜⚜
-- ☕☕🧐I like making web apps and web pages, also I enjoy making videogames.🎮🎮
-- 🏺🏺My favorite programming languages are C++, TypeScript and JavaScritp.🗿
+![Banner](./banner.svg)
 
 # My Stats 📊🏆
 
